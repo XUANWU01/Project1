@@ -1,0 +1,4 @@
+﻿  asterisk.c
+D:\ZQDFile\C语言\VS2019\Project1\asterisk.c(29,8): warning C4477: “scanf”: 格式字符串“%c”需要类型“char *”的参数，但可变参数 1 拥有了类型“bool *”
+D:\ZQDFile\C语言\VS2019\Project1\asterisk.c(33,9): warning C4477: “printf”: 格式字符串“%f”需要类型“double”的参数，但可变参数 2 拥有了类型“int”
+  Project1.vcxproj -> D:\ZQDFile\C语言\VS2019\Project1\Debug\Project1.exe
