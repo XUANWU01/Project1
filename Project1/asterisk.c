@@ -1,34 +1,34 @@
-#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 main01() {
 	/*char chr = 'a';
 	int num = 10;
-	printf("×Ö·ûÎª£º%c\nÊı×ÖÎª£º%d\n", chr, chr + num);
+	printf("å­—ç¬¦ä¸ºï¼š%c\næ•°å­—ä¸ºï¼š%d\n", chr, chr + num);
 	float f1 = 12.3;
 	double d1 = 12.34;
 	_Bool b1 = 10;
-	printf("²¼¶ûÖµÎª£º%d\n", b1);*/
+	printf("å¸ƒå°”å€¼ä¸ºï¼š%d\n", b1);*/
 
 	int id;
 	char name[10];
 	float score;
 	char rank;
 	_Bool pass;
-	printf("ÇëÊäÈëÑ§ºÅ£º");
+	printf("è¯·è¾“å…¥å­¦å·ï¼š");
 	scanf("%d", &id);
-	getchar();//Ë¢ĞÂ»º³åÇø
-	printf("ÇëÊäÈëĞÕÃû£º");
+	getchar();//åˆ·æ–°ç¼“å†²åŒº
+	printf("è¯·è¾“å…¥å§“åï¼š");
 	scanf("%s", name);
-	printf("ÇëÊäÈë·ÖÊı£º");
+	printf("è¯·è¾“å…¥åˆ†æ•°ï¼š");
 	scanf("%f", &score);
 	getchar();
-	printf("ÇëÊäÈë¼¶±ğ£º");
+	printf("è¯·è¾“å…¥çº§åˆ«ï¼š");
 	scanf("%c", &rank);
 	getchar();
-	printf("ÇëÊäÈëÊÇ·ñÍ¨¹ı£º");
+	printf("è¯·è¾“å…¥æ˜¯å¦é€šè¿‡ï¼š");
 	scanf("%c", &pass);
-	printf("\n¸Ã¿¼ÉúĞÅÏ¢ÈçÏÂ£º\n");
-	printf("Ñ§ºÅ£º%d\nĞÕÃû£º%s\n·ÖÊı£º%f\n¼¶±ğ£º%c\nÊÇ·ñÍ¨¹ı£º%c\n", id,name,score, rank, pass);
+	printf("\nè¯¥è€ƒç”Ÿä¿¡æ¯å¦‚ä¸‹ï¼š\n");
+	printf("å­¦å·ï¼š%d\nå§“åï¼š%s\nåˆ†æ•°ï¼š%f\nçº§åˆ«ï¼š%c\næ˜¯å¦é€šè¿‡ï¼š%c\n", id,name,score, rank, pass);
 	int num = 100;
 	printf("%d %f %c", num, num, num);
 }
@@ -49,17 +49,17 @@ main01() {
 
 int main(){
 	int a, b;
-	printf("ÇëÊäÈëÁ½¸öÊı¾İ£º");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°æ®ï¼š");
 	scanf("%d%d", & a, &b);
-	printf("Á½¸öÊıµÄºÍ£º%d\n",a+b);
-	printf("Á½¸öÊıµÄ²î£º%d\n", a - b);
-	printf("Á½¸öÊıµÄ»ı£º%d\n", a * b);
-	printf("Á½¸öÊıµÄÉÌ£º%d\n", a / b);
-	printf("Á½¸öÊıµÄÓàÊı£º%d\n", a % b);
-	printf("a×ÔÔöÖ®ºó£º%d\n", a++);
-	printf("a×ÔÔöÖ®ºó£º%d\n", a--);
-	printf("b×ÔÔöÖ®ºó£º%d\n", b++);
-	printf("b×ÔÔöÖ®ºó£º%d\n", b--);
+	printf("ä¸¤ä¸ªæ•°çš„å’Œï¼š%d\n",a+b);
+	printf("ä¸¤ä¸ªæ•°çš„å·®ï¼š%d\n", a - b);
+	printf("ä¸¤ä¸ªæ•°çš„ç§¯ï¼š%d\n", a * b);
+	printf("ä¸¤ä¸ªæ•°çš„å•†ï¼š%d\n", a / b);
+	printf("ä¸¤ä¸ªæ•°çš„ä½™æ•°ï¼š%d\n", a % b);
+	printf("aè‡ªå¢ä¹‹åï¼š%d\n", a++);
+	printf("aè‡ªå¢ä¹‹åï¼š%d\n", a--);
+	printf("bè‡ªå¢ä¹‹åï¼š%d\n", b++);
+	printf("bè‡ªå¢ä¹‹åï¼š%d\n", b--);
 
 	
 	return 0;
@@ -93,8 +93,8 @@ void main(void)
 
 void NONO()
 {
-	//ÇëÔÚ´Ëº¯ÊıÄÚ´ò¿ªÎÄ¼ş£¬ÊäÈë²âÊÔÊı¾İ£¬µ÷ÓÃ fun º¯Êı£¬
-	//Êä³öÊı¾İ£¬¹Ø±ÕÎÄ¼ş¡£ 
+	//è¯·åœ¨æ­¤å‡½æ•°å†…æ‰“å¼€æ–‡ä»¶ï¼Œè¾“å…¥æµ‹è¯•æ•°æ®ï¼Œè°ƒç”¨ fun å‡½æ•°ï¼Œ
+	//è¾“å‡ºæ•°æ®ï¼Œå…³é—­æ–‡ä»¶ã€‚ 
 	char tt[51], ch;
 	FILE* rf, * wf;
 	int len, i = 0;
@@ -119,15 +119,15 @@ void NONO()
 int main() {
 	//char name[10];
 	//scanf("%s", name);
-	//printf("»¶Ó­Äã£¬%s£¡", name);
+	//printf("æ¬¢è¿ä½ ï¼Œ%sï¼", name);
 
-	printf("boolÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(_Bool));
-	printf("charÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(char));
-	printf("short intÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(short int));
-	printf("intÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(int));
-	printf("long intÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(long int));
-	printf("floatÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(float));
-	printf("doubleÀàĞÍ£º\t ÎÒÈİÁ¿Îª%d\n", sizeof(double));
+	printf("boolç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(_Bool));
+	printf("charç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(char));
+	printf("short intç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(short int));
+	printf("intç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(int));
+	printf("long intç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(long int));
+	printf("floatç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(float));
+	printf("doubleç±»å‹ï¼š\t æˆ‘å®¹é‡ä¸º%d\n", sizeof(double));
 	return 0;
 
 }*/
