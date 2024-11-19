@@ -5,7 +5,7 @@ int main14()
 {
 	//
 	int arr[6];
-	printf("ÇëÊäÈëÁù¸öÕûÊı");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	for (int i = 1; i < 6; i++)
 	{
 		scanf("%d", &arr[i]);
@@ -32,10 +32,10 @@ int main14()
 }
 
 
-int main()
+int main15()
 {
 	int arr1[4][4], arr2[4][4];
-	printf("ÇëÊäÈëÒ»¸ö4x4µÄ¾ØÕó£º\n");
+	printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½4x4ï¿½Ä¾ï¿½ï¿½ï¿½\n");
 	for (int i = 0; i < 4; i++)
 	{
 		for (int j = 0; j < 4; j++)
@@ -45,7 +45,7 @@ int main()
 		}
 	}
 	
-	printf("×ªÖÃºóµÄÊı×éÎª£º");
+	printf("×ªï¿½Ãºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½");
 	for (int i = 0; i < 4; i++)
 	{
 		for (int j = 0; j < 4; j++)
@@ -54,5 +54,13 @@ int main()
 		}
 		printf("\n");
 	}
+	return 0;
+}
+
+
+int main(){
+	int a = 1;
+	int b = (++a) + (++a) + (++a);
+	printf("%d",b);
 	return 0;
 }
