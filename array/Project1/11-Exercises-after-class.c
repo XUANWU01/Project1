@@ -58,7 +58,7 @@ int main15()
 }
 
 
-int main(){
+int main16(){
 	int a = 1;
 	int b = (++a) + (++a) + (++a);
 	printf("%d",b);
